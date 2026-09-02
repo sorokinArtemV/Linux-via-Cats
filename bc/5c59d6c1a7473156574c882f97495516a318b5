@@ -1,0 +1,19 @@
+README.md
+  s_43adfc389e48eb::t_09df4b3130352f 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.18",
+  "base_commit_sha": "bc5c59d6c1a7473156574c882f97495516a318b5",
+  "prompts": {},
+  "sessions": {
+    "s_43adfc389e48eb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5dde472d-f489-4bd4-8d7d-f56bcb956952",
+        "model": "unknown"
+      },
+      "human_author": "artem.sorokin <artem.sorokin@ventionteams.com>"
+    }
+  }
+}
