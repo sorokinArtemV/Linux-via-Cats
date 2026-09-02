@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Obsidian: состояние интерфейса, меняется от самого факта открытия хранилища.
+# Настройки, темы и сниппеты при этом остаются под версионным контролем.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
