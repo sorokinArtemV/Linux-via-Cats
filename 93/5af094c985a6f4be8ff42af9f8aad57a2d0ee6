@@ -1,0 +1,87 @@
+"Файловая система Linux/img/write-path.svg"
+  s_e2bb655272afbb::t_b401741baf92ce 1-55
+"Файловая система Linux/img/usrmerge.svg"
+  s_e2bb655272afbb::t_911218402b2165 1-42
+"Файловая система Linux/img/major-minor.svg"
+  s_e2bb655272afbb::t_1435305c178e13 1-41
+"Файловая система Linux/img/service-layout.svg"
+  s_e2bb655272afbb::t_68963b808cf897 1-53
+"Файловая система Linux/img/01-overlayfs.svg"
+  s_e2bb655272afbb::t_97e1c32bf3ab3b 1-82
+"Файловая система Linux/img/ext4-layout.svg"
+  s_e2bb655272afbb::t_1e5da4e651b5d7 1-42
+.obsidian/snippets/textbook.css
+  s_e2bb655272afbb::t_7af121e2c6e315 1-135
+"Файловая система Linux/img/fhs-axes.svg"
+  s_e2bb655272afbb::t_12a713405865a0 1-47
+.obsidian/workspace.json
+  s_43adfc389e48eb::t_b2e6889dc72a20 1-261
+"Файловая система Linux/img/unlink-open-fd.svg"
+  s_e2bb655272afbb::t_8a5fc58a421bc5 1-46
+"Файловая система Linux/03-Устройства и псевдофайлы.md"
+  s_e2bb655272afbb::t_808e7e0ff69635 1-424
+"Файловая система Linux/img/three-trees.svg"
+  s_e2bb655272afbb::t_82921ee9c1d4b4 1-47
+"Файловая система Linux/02-Ссылки.md"
+  s_34db341460adb2::t_3ac3bfa23bb417 1-463
+"Файловая система Linux/01-Что такое файл.md"
+  s_34db341460adb2::t_4c9feaac0ac2fa 1-479
+"Файловая система Linux/06-Файловая система в контейнере.md"
+  s_e2bb655272afbb::t_5da731493c4046 1-354
+"Файловая система Linux/05-Монтирование и файловые системы.md"
+  s_1d7541e2f8e486::t_511caf88adc7e5 1-416
+"Файловая система Linux/img/mount-tree.svg"
+  s_e2bb655272afbb::t_a9ed58a100a222 1-58
+"Файловая система Linux/img/02-sloi-obraza.svg"
+  s_e2bb655272afbb::t_324e9a25a3ce7a 1-68
+"Файловая система Linux/img/hardlink-vs-symlink.svg"
+  s_e2bb655272afbb::t_ce353c28ebcf42 1-58
+"Файловая система Linux/img/dir-link-count.svg"
+  s_e2bb655272afbb::t_fa9a77455ce403 1-37
+"Файловая система Linux/04-Filesystem Hierarchy Standard.md"
+  s_34db341460adb2::t_643231612af9f9 1-354
+"Файловая система Linux/img/03-kuda-uhodit-zapis.svg"
+  s_e2bb655272afbb::t_298f25d77dfce3 1-85
+"Файловая система Linux/TODO.md"
+  s_43adfc389e48eb::t_0642e5c77e73ba 1-90
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.18",
+  "base_commit_sha": "935af094c985a6f4be8ff42af9f8aad57a2d0ee6",
+  "prompts": {},
+  "sessions": {
+    "s_1d7541e2f8e486": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "23894c02-7794-4195-b5a6-1cab3a04a4a4",
+        "model": "claude-opus-5"
+      },
+      "human_author": "artem.sorokin <artem.sorokin@ventionteams.com>"
+    },
+    "s_34db341460adb2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bb2f7815-e697-4b0e-97c0-94f820247f03",
+        "model": "unknown"
+      },
+      "human_author": "artem.sorokin <artem.sorokin@ventionteams.com>"
+    },
+    "s_43adfc389e48eb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5dde472d-f489-4bd4-8d7d-f56bcb956952",
+        "model": "unknown"
+      },
+      "human_author": "artem.sorokin <artem.sorokin@ventionteams.com>"
+    },
+    "s_e2bb655272afbb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d30b1587-160b-488f-b326-9bfa0cee8113",
+        "model": "claude-opus-5"
+      },
+      "human_author": "artem.sorokin <artem.sorokin@ventionteams.com>"
+    }
+  }
+}
