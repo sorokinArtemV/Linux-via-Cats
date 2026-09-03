@@ -1,0 +1,29 @@
+.claude/commands/revizia.md
+  s_fd8c89fb388f4a::t_d899ff79289e3f 1-43
+.claude/settings.json
+  s_fd8c89fb388f4a::t_1746981cd2fcf1 1-22
+.obsidian/templates.json
+  s_fd8c89fb388f4a::t_b650fa2f5dc8f7 1-3
+CLAUDE.md
+  s_fd8c89fb388f4a::t_71d3b874e17cdb 1-501
+_templates/Подглава.md
+  s_fd8c89fb388f4a::t_b9df792c832501 1-117
+_templates/Схема.svg
+  s_fd8c89fb388f4a::t_bfff6a16653056 1-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.18",
+  "base_commit_sha": "30123cc57e8178fbe8420bdbaddc48f4f4fd642f",
+  "prompts": {},
+  "sessions": {
+    "s_fd8c89fb388f4a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2354c73e-6f9c-4b69-8422-24394b97c102",
+        "model": "claude-opus-5"
+      },
+      "human_author": "artem.sorokin <artem.sorokin@ventionteams.com>"
+    }
+  }
+}
