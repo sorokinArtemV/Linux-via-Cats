@@ -1,0 +1,39 @@
+"Globbing и работа с файлами/01-Globbing.md"
+  s_fd8c89fb388f4a::t_f92ebf851fa61c 1-484
+"Globbing и работа с файлами/02-Продвинутые шаблоны.md"
+  s_fd8c89fb388f4a::t_385cdde3840d09 1-481
+"Globbing и работа с файлами/03-Ловушки globbing.md"
+  s_fd8c89fb388f4a::t_2e7639c2bc94a7 1-367
+"Globbing и работа с файлами/04-Просмотр файлов.md"
+  s_fd8c89fb388f4a::t_aca23bb8ad794c 1-415
+"Globbing и работа с файлами/05-Счёт.md"
+  s_fd8c89fb388f4a::t_da8763bb072d88 1-445
+"Globbing и работа с файлами/06-find.md"
+  s_fd8c89fb388f4a::t_a8087002c5d362 1-477
+"Globbing и работа с файлами/07-xargs и -exec.md"
+  s_fd8c89fb388f4a::t_65d00b4a5a2279 1-445
+"Globbing и работа с файлами/08-grep и регулярные выражения.md"
+  s_fd8c89fb388f4a::t_db92217cd9d31a 1-509
+"Globbing и работа с файлами/09-Редактор в терминале.md"
+  s_fd8c89fb388f4a::t_c516f65cb23d02 1-358
+"Globbing и работа с файлами/TODO.md"
+  s_fd8c89fb388f4a::t_d15512c9379819 1-95
+"Globbing и работа с файлами/img/glob-08-find-prioritet.svg"
+  s_fd8c89fb388f4a::t_421582607ff87a 1-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.18",
+  "base_commit_sha": "50c3cdca6b051b3d4e13dfb1a93d250740a97cc1",
+  "prompts": {},
+  "sessions": {
+    "s_fd8c89fb388f4a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2354c73e-6f9c-4b69-8422-24394b97c102",
+        "model": "claude-opus-5"
+      },
+      "human_author": "artem.sorokin <artem.sorokin@ventionteams.com>"
+    }
+  }
+}
