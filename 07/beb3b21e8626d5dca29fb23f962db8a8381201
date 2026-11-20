@@ -1,0 +1,71 @@
+"CheatSheets/Команды и флаги — читшит.md"
+  s_de670d65bceb21::t_4fadc4e582dcdf 562,646-845,871
+"Globbing и работа с файлами/08-grep и регулярные выражения.md"
+  s_de670d65bceb21::t_c4dc4c8a8a3db3 284
+"Globbing и работа с файлами/09-Редактор в терминале.md"
+  s_de670d65bceb21::t_649339f213ef17 351
+"Globbing и работа с файлами/TODO.md"
+  s_de670d65bceb21::t_08a1771f135796 69-71
+ОГЛАВЛЕНИЕ.md
+  s_de670d65bceb21::t_ab65a7e0b1c17d 38,53,120,263
+"Потоковая обработка текста/02-Конвейеры.md"
+  s_de670d65bceb21::t_5cd9955e9908c3 1-504
+"Потоковая обработка текста/03-sed.md"
+  s_de670d65bceb21::t_8d74433964594a 1-468
+"Потоковая обработка текста/04-awk и jq.md"
+  s_de670d65bceb21::t_6802582fdb979e 1-408
+"Потоковая обработка текста/TODO.md"
+  s_de670d65bceb21::t_388fbd34ffc521 1-30
+"Потоковая обработка текста/img/txt-02-poryadok-2-1.svg"
+  s_de670d65bceb21::t_75c5af34256172 1-68
+"Потоковая обработка текста/img/txt-03-konveyer.svg"
+  s_de670d65bceb21::t_c3f59cdd15c0f2 1-48
+"Потоковая обработка текста/img/txt-07-awk-polya.svg"
+  s_de670d65bceb21::t_f68e868a823d94 1-58
+"Потоковая обработка текста/img/txt-08-awk-agregaciya.svg"
+  s_9b74ed84a3293f::t_242ad58194ed74 1-52
+"Потоковая обработка текста/ПЛАН.md"
+  s_8ecf11c0121ae5::t_81b93c6f8eae41 1-177
+"Потоковая обработка текста/img/txt-01-deskriptory.svg"
+  s_de670d65bceb21::t_d2b3a589161689 1-58
+"Потоковая обработка текста/img/txt-04-buferizaciya.svg"
+  s_de670d65bceb21::t_021c4d2258c2bd 1-52
+"Потоковая обработка текста/img/txt-05-cikl-sed.svg"
+  s_de670d65bceb21::t_ac5d80be308f5f 1-45
+"Потоковая обработка текста/img/txt-06-sed-i.svg"
+  s_de670d65bceb21::t_9e9c11f58bac25 1-57
+"Потоковая обработка текста/01-Потоки и перенаправления.md"
+  s_de670d65bceb21::t_e9faf763317206 1-524
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "07beb3b21e8626d5dca29fb23f962db8a8381201",
+  "prompts": {},
+  "sessions": {
+    "s_8ecf11c0121ae5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6141589e-237b-4c09-a28a-e82e654b92a0",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "artem.sorokin <artem.sorokin@ventionteams.com>"
+    },
+    "s_9b74ed84a3293f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "326cf58d-1c09-4ec8-81d0-78c3e2bcfab2",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "artem.sorokin <artem.sorokin@ventionteams.com>"
+    },
+    "s_de670d65bceb21": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e19588ef-48c9-414f-9534-4b23ffbf03da",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "artem.sorokin <artem.sorokin@ventionteams.com>"
+    }
+  }
+}
