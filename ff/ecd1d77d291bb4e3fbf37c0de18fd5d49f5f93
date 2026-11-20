@@ -1,0 +1,25 @@
+.claude/commands/revizia.md
+  s_e0c4c2803d252e::t_daaf78a96dc6a7 43-82
+CLAUDE.md
+  s_e0c4c2803d252e::t_68a70c05a752e3 15-19,36-59,85,96,324-360,557-562
+ОГЛАВЛЕНИЕ.md
+  s_e0c4c2803d252e::t_009740867ec6fa 1-273
+"Файловая система Linux/TODO.md"
+  s_e0c4c2803d252e::t_37b46440b8195e 91-137
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ffecd1d77d291bb4e3fbf37c0de18fd5d49f5f93",
+  "prompts": {},
+  "sessions": {
+    "s_e0c4c2803d252e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_e0c4c2803d252e",
+        "model": "unknown"
+      },
+      "human_author": "artem.sorokin <artem.sorokin@ventionteams.com>"
+    }
+  }
+}
