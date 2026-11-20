@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="sans-serif" font-size="13">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="26" fill="#8a8a8a" font-size="14" font-weight="bold">Перенаправления выполняются слева направо, 2&gt;&amp;1 копирует то, что есть сейчас</text>
+
+  <!-- Левая колонка: > f 2>&1 -->
+  <text x="40" y="62" fill="#6aa84f" font-size="14" font-weight="bold">cmd &gt; f 2&gt;&amp;1</text>
+
+  <rect x="40" y="76" width="320" height="62" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="54" y="98" fill="#8a8a8a" font-weight="bold">исходно</text>
+  <text x="54" y="122" fill="#8a8a8a">1 → терминал</text>
+  <text x="182" y="122" fill="#8a8a8a">2 → терминал</text>
+
+  <line x1="200" y1="140" x2="200" y2="164" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="40" y="168" width="320" height="62" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="54" y="190" fill="#8a8a8a" font-weight="bold">шаг 1 · &gt; f</text>
+  <text x="54" y="214" fill="#d97a4a" font-weight="bold">1 → f</text>
+  <text x="182" y="214" fill="#8a8a8a">2 → терминал</text>
+
+  <line x1="200" y1="232" x2="200" y2="256" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="40" y="260" width="320" height="62" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="54" y="282" fill="#8a8a8a" font-weight="bold">шаг 2 · 2&gt;&amp;1 — «2 туда же, куда сейчас 1»</text>
+  <text x="54" y="306" fill="#8a8a8a">1 → f</text>
+  <text x="182" y="306" fill="#d97a4a" font-weight="bold">2 → f</text>
+
+  <line x1="200" y1="324" x2="200" y2="348" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="40" y="352" width="320" height="62" rx="6" fill="#6aa84f" fill-opacity="0.12" stroke="#6aa84f" stroke-width="2"/>
+  <text x="54" y="376" fill="#6aa84f" font-weight="bold">итог</text>
+  <text x="54" y="400" fill="#6aa84f">и вывод, и ошибки — в файле</text>
+
+  <!-- Правая колонка: 2>&1 > f -->
+  <text x="440" y="62" fill="#d97a4a" font-size="14" font-weight="bold">cmd 2&gt;&amp;1 &gt; f</text>
+
+  <rect x="440" y="76" width="320" height="62" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="454" y="98" fill="#8a8a8a" font-weight="bold">исходно</text>
+  <text x="454" y="122" fill="#8a8a8a">1 → терминал</text>
+  <text x="582" y="122" fill="#8a8a8a">2 → терминал</text>
+
+  <line x1="600" y1="140" x2="600" y2="164" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="440" y="168" width="320" height="62" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="454" y="190" fill="#8a8a8a" font-weight="bold">шаг 1 · 2&gt;&amp;1 — «2 туда же, куда сейчас 1»</text>
+  <text x="454" y="214" fill="#8a8a8a">1 → терминал</text>
+  <text x="582" y="214" fill="#d97a4a" font-weight="bold">2 → терминал</text>
+
+  <line x1="600" y1="232" x2="600" y2="256" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="440" y="260" width="320" height="62" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="454" y="282" fill="#8a8a8a" font-weight="bold">шаг 2 · &gt; f</text>
+  <text x="454" y="306" fill="#d97a4a" font-weight="bold">1 → f</text>
+  <text x="582" y="306" fill="#8a8a8a">2 → терминал</text>
+
+  <line x1="600" y1="324" x2="600" y2="348" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="440" y="352" width="320" height="62" rx="6" fill="#d97a4a" fill-opacity="0.12" stroke="#d97a4a" stroke-width="2"/>
+  <text x="454" y="376" fill="#d97a4a" font-weight="bold">итог</text>
+  <text x="454" y="400" fill="#d97a4a">вывод в файле, ошибки — на экране</text>
+
+  <text x="40" y="460" fill="#8a8a8a" font-size="13">Оранжевым — то, что изменил текущий шаг. 2&gt;&amp;1 не связывает дескрипторы навсегда:</text>
+  <text x="40" y="481" fill="#8a8a8a" font-size="13">он один раз копирует, куда ведёт 1, и дальше 2 живёт своей жизнью.</text>
+</svg>

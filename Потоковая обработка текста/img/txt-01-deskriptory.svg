@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" font-family="sans-serif" font-size="13">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="26" fill="#8a8a8a" font-size="14" font-weight="bold">Таблица дескрипторов: программа та же, провода разные</text>
+
+  <!-- Левая половина: без перенаправлений -->
+  <text x="40" y="62" fill="#4a90d9" font-size="13" font-weight="bold">backup.sh</text>
+
+  <rect x="40" y="76" width="130" height="150" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="40" y1="126" x2="170" y2="126" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="40" y1="176" x2="170" y2="176" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="54" y="106" fill="#8a8a8a" font-weight="bold">0</text>
+  <text x="72" y="106" fill="#8a8a8a">stdin</text>
+  <text x="54" y="156" fill="#8a8a8a" font-weight="bold">1</text>
+  <text x="72" y="156" fill="#8a8a8a">stdout</text>
+  <text x="54" y="206" fill="#8a8a8a" font-weight="bold">2</text>
+  <text x="72" y="206" fill="#8a8a8a">stderr</text>
+
+  <rect x="240" y="121" width="140" height="60" rx="6" fill="#4a90d9" fill-opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <text x="310" y="146" fill="#4a90d9" font-weight="bold" text-anchor="middle">терминал</text>
+  <text x="310" y="166" fill="#8a8a8a" font-size="12" text-anchor="middle">/dev/pts/0</text>
+
+  <line x1="170" y1="101" x2="236" y2="136" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="170" y1="151" x2="236" y2="151" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="170" y1="201" x2="236" y2="166" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Правая половина: > backup.log 2>&1 -->
+  <text x="420" y="62" fill="#d97a4a" font-size="13" font-weight="bold">backup.sh &gt; backup.log 2&gt;&amp;1</text>
+
+  <rect x="420" y="76" width="130" height="150" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="420" y1="126" x2="550" y2="126" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="420" y1="176" x2="550" y2="176" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="434" y="106" fill="#8a8a8a" font-weight="bold">0</text>
+  <text x="452" y="106" fill="#8a8a8a">stdin</text>
+  <text x="434" y="156" fill="#d97a4a" font-weight="bold">1</text>
+  <text x="452" y="156" fill="#d97a4a">stdout</text>
+  <text x="434" y="206" fill="#d97a4a" font-weight="bold">2</text>
+  <text x="452" y="206" fill="#d97a4a">stderr</text>
+
+  <rect x="620" y="76" width="140" height="50" rx="6" fill="#4a90d9" fill-opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <text x="690" y="98" fill="#4a90d9" font-weight="bold" text-anchor="middle">терминал</text>
+  <text x="690" y="116" fill="#8a8a8a" font-size="12" text-anchor="middle">/dev/pts/0</text>
+
+  <rect x="620" y="156" width="140" height="60" rx="6" fill="#d97a4a" fill-opacity="0.12" stroke="#d97a4a" stroke-width="2"/>
+  <text x="690" y="181" fill="#d97a4a" font-weight="bold" text-anchor="middle">файл</text>
+  <text x="690" y="201" fill="#8a8a8a" font-size="12" text-anchor="middle">backup.log</text>
+
+  <line x1="550" y1="101" x2="616" y2="101" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="550" y1="151" x2="616" y2="176" stroke="#d97a4a" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="550" y1="201" x2="616" y2="196" stroke="#d97a4a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <text x="40" y="270" fill="#8a8a8a" font-size="13">Программа в обоих случаях пишет в 1 и в 2 и не знает, что за ними стоит.</text>
+  <text x="40" y="291" fill="#8a8a8a" font-size="13">Провода переключает оболочка — до того, как программа запустилась.</text>
+</svg>

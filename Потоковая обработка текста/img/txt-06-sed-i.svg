@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="sans-serif" font-size="13">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="26" fill="#8a8a8a" font-size="14" font-weight="bold">sed -i по симлинку: новый файл встаёт на место ссылки</text>
+
+  <!-- до -->
+  <text x="40" y="62" fill="#4a90d9" font-weight="bold">до</text>
+
+  <rect x="40" y="74" width="230" height="46" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="155" y="94" fill="#4a90d9" font-weight="bold" text-anchor="middle">sites-enabled/catgallery</text>
+  <text x="155" y="111" fill="#8a8a8a" font-size="12" text-anchor="middle">симлинк, хранит путь</text>
+
+  <rect x="320" y="74" width="230" height="46" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="435" y="94" fill="#4a90d9" font-weight="bold" text-anchor="middle">sites-available/catgallery</text>
+  <text x="435" y="111" fill="#8a8a8a" font-size="12" text-anchor="middle">имя в каталоге</text>
+
+  <rect x="600" y="74" width="160" height="46" rx="6" fill="#4a90d9" fill-opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <text x="680" y="94" fill="#4a90d9" font-weight="bold" text-anchor="middle">inode A</text>
+  <text x="680" y="111" fill="#8a8a8a" font-size="12" text-anchor="middle">конфиг nginx</text>
+
+  <line x1="270" y1="97" x2="316" y2="97" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="550" y1="97" x2="596" y2="97" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- процесс -->
+  <text x="40" y="160" fill="#8a8a8a" font-size="12">sed -i 's/\r$//' sites-enabled/catgallery: прочитал через ссылку, записал sites-enabled/sedXXXXXX,</text>
+  <text x="40" y="178" fill="#8a8a8a" font-size="12">потом rename() временного файла на имя sites-enabled/catgallery — поверх самой ссылки.</text>
+
+  <!-- после -->
+  <text x="40" y="218" fill="#d97a4a" font-weight="bold">после</text>
+
+  <rect x="40" y="230" width="230" height="46" rx="6" fill="#d97a4a" fill-opacity="0.12" stroke="#d97a4a" stroke-width="2"/>
+  <text x="155" y="250" fill="#d97a4a" font-weight="bold" text-anchor="middle">sites-enabled/catgallery</text>
+  <text x="155" y="267" fill="#8a8a8a" font-size="12" text-anchor="middle">обычный файл</text>
+
+  <rect x="600" y="230" width="160" height="46" rx="6" fill="#d97a4a" fill-opacity="0.12" stroke="#d97a4a" stroke-width="2"/>
+  <text x="680" y="250" fill="#d97a4a" font-weight="bold" text-anchor="middle">inode B</text>
+  <text x="680" y="267" fill="#8a8a8a" font-size="12" text-anchor="middle">копия с правкой</text>
+
+  <line x1="270" y1="253" x2="596" y2="253" stroke="#d97a4a" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="300" y="245" fill="#d97a4a" font-size="12">это читает nginx</text>
+
+  <rect x="320" y="290" width="230" height="46" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="435" y="310" fill="#8a8a8a" font-weight="bold" text-anchor="middle">sites-available/catgallery</text>
+  <text x="435" y="327" fill="#8a8a8a" font-size="12" text-anchor="middle">сюда идут новые правки</text>
+
+  <rect x="600" y="290" width="160" height="46" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="680" y="310" fill="#8a8a8a" font-weight="bold" text-anchor="middle">inode A</text>
+  <text x="680" y="327" fill="#8a8a8a" font-size="12" text-anchor="middle">nginx его не видит</text>
+
+  <line x1="550" y1="313" x2="596" y2="313" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <text x="40" y="364" fill="#8a8a8a" font-size="13">Связь между двумя именами потеряна молча: оба файла существуют, оба похожи на правду.</text>
+</svg>
